@@ -15,6 +15,7 @@ public interface IPartieMultiJoueurs {
 	 */
 	public String demarreNouvellePartie(String[] nomsDesJoueurs) throws IllegalArgumentException ;
 	
+	
 	/**
 	 * Enregistre le nombre de quilles abattues pour le joueur courant, dans le tour courant, pour la boule courante
 	 * @param nombreDeQuillesAbattues : nombre de quilles abattue à ce lancer
